@@ -20,9 +20,9 @@ Link to the contest: [https://atcoder.jp/contests/dp](https://atcoder.jp/contest
  - ✔️ P -	Independent Set     - Tree DP
  - ✔️ Q -	Flowers             - Segment Tree DP
  - ✔️ R -	Walk                - Matrix Expo (my fav)
- - ❤️ S -	Digit Sum           - Digit DP
+ - ✔️ S -	Digit Sum           - Digit DP
  - ✔️ T -	Permutation         - Keeping prefix sums
- - ❤️ U -	Grouping    
+ - ✔️ U -	Grouping            - DP on masks
  - ✔️ V -	Subtree             - DFS In and Out
  - ❤️ W -	Intervals           
  - ❤️ X -	Tower               
