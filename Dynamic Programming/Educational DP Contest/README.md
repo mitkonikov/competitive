@@ -25,7 +25,7 @@ Link to the contest: [https://atcoder.jp/contests/dp](https://atcoder.jp/contest
  - ✔️ U -	Grouping            - DP on masks
  - ✔️ V -	Subtree             - DFS In and Out
  - ❤️ W -	Intervals           
- - ❤️ X -	Tower               
+ - ✔️ X -	Tower               - Exchange Principle
  - ❤️ Y -	Grid 2              
  - ✔️ Z -	Frog 3              - Convex Hull Trick
 
