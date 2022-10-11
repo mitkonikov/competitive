@@ -24,8 +24,8 @@ Link to the contest: [https://atcoder.jp/contests/dp](https://atcoder.jp/contest
  - ✔️ T -	Permutation         - Keeping prefix sums
  - ✔️ U -	Grouping            - DP on masks
  - ✔️ V -	Subtree             - DFS In and Out
- - ❤️ W -	Intervals           
+ - ✔️ W -	Intervals           
  - ✔️ X -	Tower               - Exchange Principle
- - ❤️ Y -	Grid 2              
+ - ✔️ Y -	Grid 2              - Binomial Coefficients
  - ✔️ Z -	Frog 3              - Convex Hull Trick
 
