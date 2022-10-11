@@ -58,6 +58,5 @@ int main() {
     }
 
     cout << ((ll)dfs(0, 0) + dfs(0, 1)) % MOD << endl;
-
     return 0;
 }

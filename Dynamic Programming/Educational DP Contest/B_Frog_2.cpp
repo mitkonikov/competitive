@@ -10,7 +10,6 @@
 // 
 
 #include <bits/stdc++.h>
-
 using namespace std;
 
 int main() {
@@ -24,20 +23,16 @@ int main() {
 
     vector<int> dp(n);
     dp[0] = 0;
-
     for (int i = 1; i < n; i++) {
         int cur_ans = dp[i-1] + abs(heights[i] - heights[i-1]);
-
         for (int k = 2; k <= K; k++) {
             if (i - k >= 0) {
                 cur_ans = min(cur_ans, dp[i-k] + abs(heights[i] - heights[i-k]));
             }
         }
-
         dp[i] = cur_ans;
     }
 
     cout << dp[n-1] << endl;
-
     return 0;
 }

@@ -59,4 +59,5 @@ int main() {
     }
 
     cout << tree.getFWT(n) << endl;
+    return 0;
 }

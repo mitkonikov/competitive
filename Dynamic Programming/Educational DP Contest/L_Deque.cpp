@@ -1,7 +1,8 @@
 // 
 //  Taro and Jiro will play the following game against each other.
 //  Initially, they are given a sequence a = (a[1], a[2], ..., a[n]) 
-//  Until a becomes empty, the two players perform the following operation alternately, starting from Taro:
+//  Until a becomes empty, the two players perform the following operation alternately, 
+//  starting from Taro:
 //    - Remove the element at the beginning or the end of a. 
 //      The player earns x points, where x is the removed element.
 //
@@ -56,6 +57,5 @@ int main() {
 
     // dp[0][n-1]
     cout << (n % 2 == 0 ? -1LL : 1LL) * dp[0][n-1] << endl;
-
     return 0;
 }

@@ -46,6 +46,5 @@ int main() {
     }
 
     cout << setprecision(16) << ans << endl;
-
     return 0;
 }

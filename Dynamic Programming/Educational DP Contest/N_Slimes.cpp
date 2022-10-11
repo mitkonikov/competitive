@@ -3,8 +3,10 @@
 //  Taro is trying to combine all the slimes into a larger slime. 
 //  He will perform the following operation repeatedly until there is only one slime:
 //     - Choose two adjacent slimes, and combine them into a new slime. 
-//       The new slime has a size of x+y, where x and y are the sizes of the slimes before combining them. 
-//       Here, a cost of x+y is incurred. The positional relationship of the slimes does not change while combining slimes.
+//       The new slime has a size of x+y, where x and y are the sizes
+//       of the slimes before combining them. 
+//       Here, a cost of x+y is incurred. The positional relationship
+//       of the slimes does not change while combining slimes.
 //  Find the minimum possible total cost incurred.
 // 
 //    Time Complexity: O(N^3)
@@ -43,6 +45,5 @@ int main() {
     }
 
     cout << dp[0][n-1] << endl;
-    
     return 0;
 }

@@ -58,6 +58,5 @@ int main() {
     }
 
     cout << dp[full_set][0] << endl;
-
     return 0;
 }

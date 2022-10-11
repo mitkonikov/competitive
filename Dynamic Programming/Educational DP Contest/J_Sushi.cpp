@@ -67,6 +67,5 @@ int main() {
     }
 
     cout << setprecision(16) << dp_f(mp[1], mp[2], mp[3]) << endl;
-
     return 0;
 }
