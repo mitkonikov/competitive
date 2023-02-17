@@ -38,7 +38,7 @@ int solve(vector<ll>& A, int N, int C) {
         for (int mid = max(0, L - 2); mid <= min(N - 1, L + 2); mid++) {
             ll cst = pref[mid] - (mid >= i ? mins[i].first : 0);
             if (cst <= target) {
-                current_ans = max(current_ans, 1 + L);
+                current_ans = max(current_ans, 1 + mid + (mid < i));
             }
         }
         ans = max(ans, current_ans);
