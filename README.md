@@ -1,6 +1,6 @@
 # Competitive Programming Problems and Solutions
 
-![](https://img.shields.io/static/v1?label=Solutions&message=831&color=brightgreen)
+![](https://img.shields.io/static/v1?label=Solutions&message=853&color=brightgreen)
 
 This repository is meant as a public place to store my competitive programming solutions to various of competitive programming problems on sites such as:
  - CodeForces
@@ -11,6 +11,7 @@ This repository is meant as a public place to store my competitive programming s
  - COCI
  - Slovenian ACM
  - Macedonian Mendo
+ - CSES Problem Set
  - and more...
 
 The problems are divided in separate categories according to what algorithms or data structures are used in the solution. The purpose of this repository is to help beginners if they are stuck with some problem.
