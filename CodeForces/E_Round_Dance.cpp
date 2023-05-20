@@ -32,10 +32,8 @@ void testCase() {
             auto t = bfs.front();
             bfs.pop();
             for (auto el: adj[t]) {
-                if (el.second == 2) {
-                    if (adj[t].size() == 1) {
-                        free_comp = 1;
-                    }
+                if (adj[t].size() == 1) {
+                    free_comp = 1;
                 }
                 if (visited[el.first]) continue;
                 bfs.push(el.first);
