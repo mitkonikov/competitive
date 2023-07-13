@@ -10,7 +10,6 @@
 			"",
 			"int main() {",
 			"\t${1://code}",
-			"\tcout << flush;",
 			"\treturn 0;",
 			"}"
 		],
@@ -1358,5 +1357,64 @@
 			"};"
 		],
 		"description": "Big Integer Struct"
+	},
+	"bcorner": {
+		"prefix": "bcorner",
+		"body": [
+			"inline bool corner(int x, int y, int N, int M) {",
+			"    if (x == 0 && y == 0) return true;",
+			"    if (x == N - 1 && y == 0) return true;",
+			"    if (x == 0 && y == M - 1) return true;",
+			"    if (x == N - 1 && y == M - 1) return true;",
+			"    return false;",
+			"}"
+		],
+		"description": "Boolean function for checking if a coordinate is some corner"
+	},
+	"bedge": {
+		"prefix": "bedge",
+		"body": [
+			"inline bool is_edge(int x, int y, int N, int M) {",
+			"    if (x == 0) return true;",
+			"    if (y == 0) return true;",
+			"    if (x == N - 1) return true;",
+			"    if (y == M - 1) return true;",
+			"    return false;",
+			"}"
+		],
+		"description": "Boolean function to check if given coordinates are on some edge"
+	},
+	"tsplit": {
+		"prefix": "tsplit",
+		"body": [
+			"vector<string> split(string &s, char del) {",
+			"    int prev = 0;",
+			"    vector<string> res;",
+			"    s += del;",
+			"    for (int i = 0; i < s.size(); i++) {",
+			"        if (s[i] == del) {",
+			"            res.push_back(s.substr(prev, i - prev));",
+			"            prev = i + 1;",
+			"        }",
+			"    }",
+			"    return res;",
+			"};"
+		],
+		"description": "Split a string using delimeter"
+	},
+	"tconvert": {
+		"prefix": "tconvert",
+		"body": [
+			"vector<ll> convert(vector<string>& str) {",
+			"    int N = str.size();",
+			"    vector<ll> result(N);",
+			"    for (int i = 0; i < N; i++) {",
+			"        assert(false); // check ll",
+			"        result[i] = stoll(str[i]);",
+			"    }",
+			"    return result;",
+			"}"
+		],
+		"description": "Conversion function"
 	}
 }
