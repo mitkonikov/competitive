@@ -38,3 +38,15 @@ Some of the solutions contain code of certain algorithms which may have been cop
     - Faculty of Electrical Engineering and Computer Science, University of Maribor, Slovenia.
  - Where are you from?
     - Strumica, Republic of Macedonia.
+
+
+## My Own Problem Sets
+
+### FERI Round #1
+
+This round was created to motivate students to engage in competitive programming and therefore, the problems are quite easy. Nonetheless, all of the problems are incredibly fun and educational, so that everyone can learn something from them. The whole problem set is original and written by me.
+
+You can solve the round [here](https://codeforces.com/contestInvitation/47ae8382a534ff7e8bf220bd0122f4bfcbf9dabd).
+
+ > Note that the problems are given in Slovene, but there is also a .PDF file in the "Contest Material" section containing the statements in English.
+ 
