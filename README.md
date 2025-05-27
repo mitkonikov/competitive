@@ -1,6 +1,6 @@
 # Competitive Programming Problems and Solutions
 
-![](https://img.shields.io/static/v1?label=Solutions&message=1555&color=brightgreen)
+![](https://img.shields.io/static/v1?label=Solutions&message=1585&color=brightgreen)
 
 This repository is meant as a public place to store my competitive programming solutions to various competitive programming problems on sites such as:
  - [CodeForces](https://codeforces.com/)
